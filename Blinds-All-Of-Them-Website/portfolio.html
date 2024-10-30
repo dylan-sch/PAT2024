@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="navigation">
+          <ul>
+            <li><a href="index.html" id="index">HOME</a></li>
+            <li><a href="portfolio.html" id="portfolio">PORTFOLIO</a></li>
+            <li><a href="contact-us.html" id="contact-us">CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="block">
+          <h1>View our work,</h1>
+          <h2>blinds, shutters screens & awnings.</h2>
+        </div>
+      </div>
+
+      <!--PAGE CONTENTS-->
+      <div class="main">
+        <h3>Blinds</h3>
+  
+            <div class="gallery">
+              <img src="/images/blinds/blind1.jpg" alt="slide-1">
+              <img src="/images/blinds/blind2.jpg" alt="slide-2">
+              <img src="/images/blinds/blind3.jpg" alt="slide-2">
+              <img src="/images/blinds/blind4.jpg" alt="slide-2">
+            </div>
+   
+        <h3>Shutters</h3>
+        <div class="gallery">
+          <img src="/images/shutters/shutter1.jpg" alt="slide-1">
+          <img src="/images/shutters/shutter2.jpg" alt="slide-2">
+          <img src="/images/shutters/shutter3.jpg" alt="slide-2">
+        </div>
+        <h3>Screens</h3>
+        <div class="gallery">
+          <img src="/images/screens/screen1.jpg" alt="slide-1">
+          <img src="/images/screens/screen2.jpg" alt="slide-2">
+        </div>
+        <h3>Awnings</h3>
+        <div class="gallery">
+          <img src="/images/awnings/awning1.jpg" alt="slide-1">
+          <img src="/images/awnings/awning2.jpg" alt="slide-2">
+        </div>
+      </div>
+
+      <!--FOOTER-->
+      <div class="footer-grid">
+        <!--////ADDRESS & CONTACT////-->
+        <div class="col">
+          <h5>CONTACT US</h5>
+          <p>+27 (83) 777-8750</p>
+          <p>info@blinds1.co.za</p><br>
+          <p>Ballito Business Park, 9 Moffat Dr, Ballito, 4420</p>
+        </div>
+        <!--////SUPPLIERS////-->
+        <div class="col">
+          <h5>SUPPLIERS</h5>
+          <a href="https://www.somfy.co.za/"><img src="\images\logos\somfy.jpg" alt="somfy_logo"/></a>
+          <a href="https://www.blinddesigns.co.za/"><img src="\images\logos\blinddesigns.jpg" alt="blind_designs_logo"/></a>
+          <a href="https://www.blindsmart.co.za/"><img src="\images\logos\blindsmart.jpg" alt="blindsmart_logo"/></a>
+          <a href="https://acscreens.co.za"><img src="\images\logos\acscreens.png" alt="acscreens_logo"/></a>
+          <a href="https://www.luxaflex.co.za/"><img src="\images\logos\luxaflex.png" alt="luxaflex_logo"/></a>
+        </div>
+        <!--////LINKS////-->
+        <div class="col">
+          <h5>LINKS</h5>
+          <ul>
+            <li><a href="index.html" id="index">Home</a></li>
+            <li><a href="quotation-tool.html" id="quote-tool">Quotation Tool</a></li>
+            <li><a href="contact-us.html" id="contact-us">Contact Us</a></li>
+            <li><a href="portfolio.html" id="portfolio">Portfolio</a></li>
+          </ul>
+        </div>
+        <!--////WEEKLY NEWSLETTER////-->
+        <div class="col" id="newsletter">
+          <h5>WEEKLY NEWSLETTER</h5>
+          <form id="emailForm">
+            <input type="email" id="email_input" placeholder="Enter your email" required oninvalid="this.setCustomValidity('Please enter valid email')"/>
+             <button type="submit" id="submit_button">Submit</button>
+          </form>
+        </div>
+      </div>
+      <!--////BLINDS ALL OF THEM CC////-->
+      <p class="footertxt">Blinds All Of Them©, Est. 1989</p>
+    </div>
+    <script src="slider.js"></script>
+
+  </body>
+</html>
